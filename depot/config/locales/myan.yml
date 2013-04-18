@@ -1,0 +1,75 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+#START:layout
+#START:main
+#START:cart
+#START:currency
+#START:checkout
+#START:flash
+myan:
+
+#END:cart
+#END:checkout
+#END:flash
+#END:main
+#END:layout
+  number:
+    currency:
+      format:
+        unit:      "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+#END:currency
+
+#START:layout
+  layouts:
+    application:
+      title:       "Pragmatic SarOakSin"
+      home:        "Mula Nayyar"
+      questions:   "May khon"
+      news:        "Tadin"
+      contact:     "Sat Twel Yan"
+#END:layout
+
+#START:cart
+  carts:
+    cart:
+      title:       "Chin taung"
+      empty:       "Ma Yu tot bu"
+      checkout:    "Shin Mal"
+#END:cart
+
+#START:main
+  store:
+    index:
+      title_html:  "Min Pragmatic Sayin"
+      add_html:    "Yu mal"
+      cancel_html: "Yu tot fu"
+#END:main
+
+#START:checkout
+  orders:
+    new:
+      legend:       "Phaye Par"
+    form:
+      name:         "Nar mal"
+      address_html: "Lait sar"
+      email:        "E-mail"
+      pay_type:     "Bar nae pay ma lae"
+      pay_prompt_html: "Pay mar ko ywae par"
+      submit:       "takal mhar p"
+#END:checkout
+
+#START:flash
+  thanks:          "Kyay zu tin per t"
+#END:flash\
+ 
+  errors:
+    template:
+      body:        "taw taw pya ta nar shar tal"
+      header:
+        one:       "ma phaye yin ma ya per fu khin myar"
+        other:     "ma phaye yin ma ya per fu khin myar"
+#END:errors
