@@ -1,0 +1,18 @@
+<h1 align="center"> WELCOME </h1>
+
+<meta http-equiv="REFRESH" content="60" />
+<h2 align="center"><%= @time_now %></h2>
+<h3 align="center" >We have <%= pluralize(@total_orders,"")%> <a href="http://localhost:3000/en/orders"style="color: #003330">orders</a></h3>
+
+
+
+  
+  <%= button_to 'New Order', orders_path %>   
+  <%= button_to 'New Products',products_path %> 
+  <%= button_to 'New User',users_path %></br>
+  <div class="wrapper">
+  	
+   </br><%= button_to 'Logout', logout_path, :method => :delete, :data => { :confirm => 'Are you sure to logout?' } %> </p>
+  </div>
+
+
